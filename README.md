@@ -27,7 +27,3 @@ The purpose of this website is to:
 - **Skill Section**: A breakdown of the languages, frameworks, and tools that I am proficient in.
 - **Contact Form**: A simple contact form allowing visitors to get in touch with me directly.
 - **Continuous Updates**: Easily maintainable, allowing for continuous updates to reflect new skills, projects, and career progress.
-
-## Installation and Setup
-
-THe 
