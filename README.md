@@ -1,50 +1,33 @@
-# React + TypeScript + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This is a personal portfolio website built using **React**, **Vite**, and **TypeScript**. The website serves as a showcase of my skills, projects, and experiences in software development, allowing potential employers and collaborators to easily explore my work and learn more about me.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Purpose
 
-## Expanding the ESLint configuration
+The purpose of this website is to:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. **Present My Work**: Display and demonstrate the projects I have worked on, highlighting my technical abilities, problem-solving skills, and creativity in software development.
+2. **Create an Online Presence**: Establish a digital footprint where visitors can find information about me, my background, and the tools/technologies I work with.
+3. **Highlight My Skills**: Provide a centralized location for showcasing my core competencies in areas like React, TypeScript, Vite, and other technologies.
+4. **Provide Contact Information**: Allow potential clients, employers, or collaborators to easily reach out to me through a contact form or listed social links.
+5. **Portfolio Growth**: Serve as a foundation for continually updating my work, adding new projects, and refining the content as my skills and experience grow.
 
-- Configure the top-level `parserOptions` property like this:
+## Tech Stack
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **React**: A JavaScript library for building user interfaces, especially useful for creating dynamic and interactive web applications.
+- **Vite**: A fast and efficient build tool that provides a highly optimised development experience.
+- **TypeScript**: A strongly-typed programming language that builds on JavaScript, providing better tooling for large-scale applications.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Features
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- **Responsive Design**: The website is fully responsive, providing a smooth experience across various devices (desktops, tablets, and mobile phones).
+- **Project Gallery**: A section dedicated to showcasing my most significant projects, with descriptions and links to the source code or live demos.
+- **Skill Section**: A breakdown of the languages, frameworks, and tools that I am proficient in.
+- **Contact Form**: A simple contact form allowing visitors to get in touch with me directly.
+- **Continuous Updates**: Easily maintainable, allowing for continuous updates to reflect new skills, projects, and career progress.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Installation and Setup
+
+THe 
