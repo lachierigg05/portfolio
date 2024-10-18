@@ -13,7 +13,7 @@ export default function Main() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowDesc(true);
-    }, 500);
+    }, 1000);
 
     const buttonTimer = setTimeout(() => {
       setShowButton(true);
@@ -21,7 +21,7 @@ export default function Main() {
 
     const meteorTimer = setTimeout(() => {
       setShowMeteors(true);
-    }, 1100);
+    }, 1010);
 
     return () => {
       clearTimeout(timer);
@@ -47,7 +47,7 @@ export default function Main() {
         )}
         <button
           type="button"
-          className={`font-roboto text-gray-900 text-lg bg-gray-900 hover:text-white border border-gray-800 hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-10 py-2.5 text-center dark:border-gray-600 dark:text-orange-100 ${
+          className={`font-roboto text-gray-900 text-lg bg-neutral-800 border border-gray-800 hover:bg-neutral-950 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg px-10 py-2.5 text-center dark:border-gray-600 dark:text-orange-100 ${
             showButton ? "fade-in" : "invisible"
           }`}
         >

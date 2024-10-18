@@ -11,7 +11,7 @@ interface TEProps {
 const TypingEffect: React.FC<TEProps> = ({
   id,
   text,
-  typeSpeed = 50,
+  typeSpeed = 60,
   callback,
   className,
 }) => {
