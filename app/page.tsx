@@ -47,7 +47,7 @@ export default function Main() {
         )}
         <button
           type="button"
-          className={`font-roboto text-gray-900 text-lg bg-neutral-800 border border-gray-800 hover:bg-neutral-950 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg px-10 py-2.5 text-center dark:border-gray-600 dark:text-orange-100 ${
+          className={`font-roboto text-orange-100 text-lg bg-neutral-800 border border-neutral hover:bg-neutral-950 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg px-10 py-2.5 text-center ${
             showButton ? "fade-in" : "invisible"
           }`}
         >
