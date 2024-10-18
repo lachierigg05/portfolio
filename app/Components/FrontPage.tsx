@@ -32,10 +32,10 @@ export default function FrontPage() {
   }, []);
 
   return (
-    <div className="bg-neutral-900 h-screen">
+    <div className="bg-neutral-900 h-screen w-full max-w-full overflow-hidden">
       <Navbar />
       {showMeteors && <Meteors number={20} />}
-      <div className="bg-neutral-950 flex justify-center flex-col items-center text-center w-[100%] h-[100%] border border-neutral-950 shadow-d shadow-white">
+      <div className="bg-neutral-950 flex justify-center flex-col items-center text-center w-full h-[100%] border border-neutral-950 shadow-d shadow-white">
         <div className="font-popsies text-8xl text-orange-200 fade-in">
           Lachie Rigg
         </div>
