@@ -34,6 +34,11 @@
   animation: fadeIn 2s ease-in-out;
 }
 
+.disable-animations * {
+  animation: none !important;
+  transition: none !important;
+}
+
 body {
   background-color: black;
 }
