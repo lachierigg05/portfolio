@@ -1,4 +1,5 @@
 import React from 'react';
+import NavButton from './NavButton';
 
 export const NavBar: React.FC = () => {
     return (
@@ -7,10 +8,10 @@ export const NavBar: React.FC = () => {
                 <h1 className='text-white m-20'>Lachie Rigg</h1>
             </div>
             <div className='w-1/2 mr-4 flex justify-end items-center'>
-                <li className='text-white m-5'>Home</li>
-                <li className='text-white m-5'>About</li>
-                <li className='text-white m-5'>Projects</li>
-                <li className='text-white m-5'>Contact</li>
+                <NavButton label='Home' onClick={() => console.log('Home')} />
+                <NavButton label='About' onClick={() => console.log('About')} />
+                <NavButton label='Projects' onClick={() => console.log('Projects')} />
+                <NavButton label='Contact' onClick={() => console.log('Contact')} />
             </div>
             
         </div>
