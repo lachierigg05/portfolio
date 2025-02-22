@@ -5,7 +5,7 @@ import { Menu } from 'lucide-react';
 const StaticNav: React.FC = () => {
     const [inView, setInView] = useState(false);
     const [isMobView, setMobView] = useState(false); 
-        const [isMenuOpen, setMenuOpen] = useState(false); 
+    const [isMenuOpen, setMenuOpen] = useState(false); 
     
 
     useEffect(() => {
@@ -36,7 +36,7 @@ const StaticNav: React.FC = () => {
             return(() => {window.removeEventListener("resize", checkScreenSize)}); 
         }, [])
 
-    
+    // TODO - Implement the drop down menu for the mobile hamburger menu icon
     return (
         <nav className={`fixed flex justify-start h-30 w-full bg-gray-950 shadow-blue-500 transition-opacity duration-800 ${inView ? 'opacity-100' : 'opacity-0'}`}>
             <div className="flex h-full w-1/2 ml-10 items-center mt-4">

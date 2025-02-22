@@ -33,6 +33,7 @@ export const NavBar: React.FC = () => {
         return(() => {window.removeEventListener("resize", checkScreenSize)}); 
     }, [])
     
+    // TODO - Implement the drop down menu for the mobile hamburger menu icon
     return (
         <nav className={`fixed flex flex-row justify-center items-center t-0 h-30 w-full bg-gray-950 shadow-2xl shadow-blue-950 transition-transform duration-500 ${showNavbar ? 'translate-y-0' : '-translate-y-100'}`}>
             <div className="flex h-full w-1/2 ml-10 items-center mt-4">
