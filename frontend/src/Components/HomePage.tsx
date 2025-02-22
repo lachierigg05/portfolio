@@ -3,8 +3,8 @@ import NavBar from './NavBar';
 
 export const HomePage: React.FC = () => {
     return (
-        <div className="h-screen w-full flex justify-center">
-            <NavBar/>
+        <div id='home' className="h-screen w-full flex justify-center border-b border-t border-gray-800">
+            
         </div>
     )
 }

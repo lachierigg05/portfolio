@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import "tailwindcss";
 
+body {
+    @apply bg-gray-950;
+}
+
 @theme {
   --font-roboto: "Roboto", sans-serif; 
   --font-popsies: "popsies", sans-serif;
