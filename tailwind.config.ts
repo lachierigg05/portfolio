@@ -11,6 +11,12 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        asparagus: "#629460",
+        lemon: "#FFFACC",
+        cerulean: "#007EA7",
+        bittersweet: "#F87666",
+        github: "#501DAF",
+        linkedin: "#0077B5"
       },
     },
   },
