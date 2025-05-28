@@ -8,10 +8,16 @@ interface props {
 
 const Linkbox: React.FC<props> = ({widthPercentage, heightPercentage}) => {
     return (
-        <section className={`flex w-full h-${heightPercentage}`}>
+        <section 
+            className="flex" 
+            style={{ 
+                width: `${widthPercentage}%`, 
+                height: `${heightPercentage}%` 
+            }}
+        >
             <Sitelinks/>
         </section>
     )
 }
 
-export default Linkbox; 
+export default Linkbox;

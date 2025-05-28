@@ -17,5 +17,12 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Roboto;
+  font-family: roboto;
+}
+
+@font-face {
+  font-family: 'DaltonWhite';
+  src: url('/fonts/DaltonWhite.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
