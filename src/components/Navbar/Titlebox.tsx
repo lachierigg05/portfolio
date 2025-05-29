@@ -1,5 +1,7 @@
 import React from "react";
 import Sitelinks from "./Sitelinks";
+import Linkbox from "./Linkbox";
+import PageLinks from "./PageLinks";
 
 interface props {
     widthPercentage: number, 
@@ -15,12 +17,7 @@ const Titlebox: React.FC<props> = ({widthPercentage, heightPercentage}) => {
                 height: `${heightPercentage}%` 
             }}
         >
-            <div
-                className="text-gray-200 text-3xl w-full"
-                style={{ fontFamily: "'DaltonWhite', sans-serif" }}
-            >
-                Lachie Rigg
-            </div>
+            <PageLinks widthPercentage={50} heightPercentage={100}/>
         </section>
     )
 }
